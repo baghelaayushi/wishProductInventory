@@ -179,7 +179,7 @@ The sample response looks like
 }
 ```
 File Description: 
-1. ProductInventoryService: A service that fetches data from wish api and then formats it for deliverr.
+1. ProductInventoryService: A service that fetches data from wish api and then formats it to more managable format.
 2. WishApiClient: A helper that uses axios to make the api call
 
 There are a following assumptions made that needed further clarity: 
