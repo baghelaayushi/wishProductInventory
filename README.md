@@ -178,8 +178,11 @@ The sample response looks like
    ]
 }
 ```
+File Description: 
+1. ProductInventoryService: A service that fetches data from wish api and then formats it for deliverr.
+2. WishApiClient: A helper that uses axios to make the api call
 
 There are a following assumptions made that needed further clarity: 
 1. The name for the product: Since we want to store the variant as every product is going to have atleast one variant, that is one product. The way products are named is using the product name and appending it with variant color.
-2.If we have more that 250 products, additional processing is needed to support pagination.
+2. If we have more that 250 products, additional processing is needed to support pagination.
 
